@@ -134,7 +134,7 @@ dont_edit_this_bit do
       db.fetch(
         "SELECT * FROM pg_catalog.pg_tables 
         WHERE tablename = 'fruit'" 
-      ).all
+      ).first
     end
   end
 end
